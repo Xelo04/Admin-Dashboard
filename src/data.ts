@@ -536,7 +536,7 @@ export const products = [
   },
   {
     id: 9,
-    img: "https://img.productz.com/review_image/102489/preview_sony-kdl-50w800b-50-inch-hdtv-review-superb-picture-102489.png",
+    img: "https://www.sony.bg/image/b29968f71b11de3059234553a4f25578?fmt=pjpeg&resMode=bisharp&wid=360",
     title: "Sony Bravia KDL-47W805A",
     color: "black",
     producer: "Sony",
