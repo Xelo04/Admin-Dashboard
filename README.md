@@ -1,3 +1,3 @@
-areact router
+aareact router
 wykresy recharts
 tabele - mui x react-data-grid
