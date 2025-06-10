@@ -1,6 +1,8 @@
 import Home from "./pages/home/Home";
 import Users from "./pages/users/Users";
+import User from "./pages/user/User";
 import Products from "./pages/products/Products";
+import Product from "./pages/product/Product";
 import Login from "./pages/login/Login";
 import Menu from "./components/menu/Menu";
 import Navbar from "./components/navbar/Navbar";
@@ -8,8 +10,6 @@ import Footer from "./components/footer/Footer";
 
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import "./styles/global.scss";
-import Product from "./pages/product/Product";
-import User from "./pages/user/User";
 
 function App() {
   const Layout = () => {
