@@ -8,6 +8,8 @@ import Footer from "./components/footer/Footer";
 
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import "./styles/global.scss";
+import Product from "./pages/product/Product";
+import User from "./pages/user/User";
 
 function App() {
   const Layout = () => {
@@ -43,6 +45,14 @@ function App() {
         {
           path: "/products",
           element: <Products />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
+        },
+        {
+          path: "/products/:id",
+          element: <Product />,
         },
       ],
     },
