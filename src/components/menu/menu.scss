@@ -1,4 +1,5 @@
 @use "../../styles/variables.scss" as constants;
+@use "../../styles/responsive.scss" as responsive;
 
 .menu {
   .item {
@@ -13,6 +14,10 @@
     font-weight: 200;
     color: constants.$soft-color;
     text-transform: uppercase;
+
+    @include responsive.lg {
+      display: none;
+    }
   }
 
   .listItem {
@@ -24,6 +29,12 @@
 
     &:hover {
       background-color: constants.$soft-bg;
+    }
+
+    .listItemTitle {
+      @include responsive.lg {
+        display: none;
+      }
     }
   }
 }

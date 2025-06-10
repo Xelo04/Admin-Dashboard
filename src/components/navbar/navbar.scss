@@ -1,3 +1,5 @@
+@use "../../styles/responsive.scss" as responsive;
+
 .navbar {
   width: 100%;
   padding: 20px;
@@ -16,6 +18,11 @@
     align-items: center;
     gap: 20px;
 
+    .icon {
+      @include responsive.sm {
+        display: none;
+      }
+    }
     .notification {
       position: relative;
       span {
