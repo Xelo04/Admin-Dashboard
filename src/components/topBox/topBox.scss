@@ -1,6 +1,12 @@
+@use "../../styles/responsive.scss" as responsive;
+
 .topBox {
   h1 {
     margin-bottom: 20px;
+
+    @include responsive.xxl {
+      font-size: 24px;
+    }
   }
   .list {
     .listItem {
